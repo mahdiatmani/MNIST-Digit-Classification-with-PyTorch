@@ -72,6 +72,10 @@ print(f"Predicted Digit: {prediction}")
   - Enter Model Path: Provide the path to the pre-trained model (default: mnist_model.pth).
   - Upload Image: Upload a grayscale image of a handwritten digit (28x28 pixels preferred).
   - Predict: Displays the predicted digit and its confidence score.
+## Result
+![alt text](image1.png)
+![alt text](image2.png)
+
 ## Future Improvements
 - Experiment with deeper architectures
 - Try different optimizers
