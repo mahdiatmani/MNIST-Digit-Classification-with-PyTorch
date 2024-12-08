@@ -49,16 +49,16 @@ pip install torch numpy matplotlib scikit-learn streamlit
 - Test Accuracy: 97.00%
 
 ## Usage
-##Streamlit Application
+## Streamlit Application
 Run the Streamlit application for interactive digit prediction:
 ```python
 streamlit run app.py
 ```
 -Features:
-  -Load a pre-trained model (mnist_model.pth).
-  -Upload a handwritten digit image (e.g., .png, .jpg).
-  -View the uploaded image.
-  -Predict the digit using the model.
+  - Load a pre-trained model (mnist_model.pth).
+  - Upload a handwritten digit image (e.g., .png, .jpg).
+  - View the uploaded image.
+  - Predict the digit using the model.
 
 ```python
 model = load_model("mnist_model.pth")
@@ -68,9 +68,9 @@ prediction = test_single_image(model, single_image)
 print(f"Predicted Digit: {prediction}")
 ```
 ##Streamlit Interface
-  -Enter Model Path: Provide the path to the pre-trained model (default: mnist_model.pth).
-  -Upload Image: Upload a grayscale image of a handwritten digit (28x28 pixels preferred).
-  -Predict: Displays the predicted digit and its confidence score.
+  - Enter Model Path: Provide the path to the pre-trained model (default: mnist_model.pth).
+  - Upload Image: Upload a grayscale image of a handwritten digit (28x28 pixels preferred).
+  - Predict: Displays the predicted digit and its confidence score.
 ## Future Improvements
 - Experiment with deeper architectures
 - Try different optimizers
