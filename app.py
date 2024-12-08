@@ -1,3 +1,7 @@
+!pip install torch
+!pip install torch.nn
+!pip install matplotlib
+!pip install PIL
 import streamlit as st
 import torch
 import torch.nn as nn
