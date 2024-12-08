@@ -30,6 +30,7 @@ pip install torch numpy matplotlib scikit-learn streamlit
 - 120,000 handwritten digit images
 - 28x28 pixel grayscale images
 - 10 classes (digits 0-9)
+- Link : https://www.kaggle.com/datasets/fedesoriano/qmnist-the-extended-mnist-dataset-120k-images
 
 ## Model Architecture
 - Input Layer: 784 neurons (28x28 flattened image)
