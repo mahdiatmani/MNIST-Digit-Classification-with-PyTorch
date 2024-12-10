@@ -85,7 +85,7 @@ def main():
     st.write("Select an image from the test set for prediction")
 
     # Input for test set directory
-    test_set_dir = st.text_input("Enter test set directory path:", "testset")
+    test_set_dir = st.text_input("Enter test set directory path:", "testSet")
 
     # Load model section
     model_path = st.text_input("Enter model path:", "mnist_model.pth")
